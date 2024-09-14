@@ -1,0 +1,65 @@
+/* Font Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+    /* font-size: 62.5%; */
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #eee;
+    line-height: 1.6;
+    font-weight: 300;
+    min-height: 2000px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.typography {
+    display: flex;
+}
+.typography .col {
+    flex: 1;
+    margin:  0 0.5em;
+    padding: 0 0.5em;
+}
+
+/* em Relative terhadap elemnt parent nya */
+    /* font em bersarang / casceding */
+/* .typography {
+    font-size: 10px;
+}
+.col-em {
+    font-size: 2em;
+}
+.col-em h2 {
+    font-size: 2em;
+}
+.col-em p {
+    font-size: 1.5em;
+} */
+
+/* Rem */
+/* .col-rem h2 {
+    font-size: 2rem;
+}
+.col-rem p {
+    font-size: 1.5rem;
+} */
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 3em;
+}
+.btn-sm {
+    font-size: .5em;
+}
+.btn-lg {
+    font-size: 2em;
+}
